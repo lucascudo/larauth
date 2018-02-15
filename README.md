@@ -14,7 +14,7 @@ Create your own ***.env*** file based in the ***.env.example***.
 
 ## Installing
 ```sh
-composer install && php artisan key:generate
+composer install && php artisan key:generate && php artisan jwt:secret
 ```
 
 ## Running
